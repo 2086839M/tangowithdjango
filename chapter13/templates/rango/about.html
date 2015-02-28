@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    <div class="page-header">
+                <h1>About</h1>
+            </div>
+            <div>
+            <p></strong>.</p>
+        <h1>Naveen Mendis 2086839M</h1>
+        <strong>{{ boldmessage }}</strong><br />
+		<img src="{% static "images/pic.png" %}" alt="picture" />
+		<p> visits: {{ visits }}</p>
+		</div>
+		
+{% endblock %}
