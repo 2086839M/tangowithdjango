@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+    <head>
+        <title>Rango</title>
+    </head>
+
+    <body>
+        <h1>Naveen Mendis 2086839M</h1>
+        <strong>{{ boldmessage }}</strong><br />
+		<img src="{% static "images/pic.png" %}" alt="picture" /> 
+    </body>
+	
+	<p> visits: {{ visits }}</p>
+
+
+{% endblock %}
